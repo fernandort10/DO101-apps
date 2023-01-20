@@ -2,10 +2,9 @@ const express = require('express');
 app = express();
 
 var response;
-
 app.get('/', function (req, res) {
 
-      response = 'This is version 2 of the app.' + '\n';
+      response = 'This is version 3 of the app.' + '\n';
 
 
 
@@ -15,7 +14,8 @@ app.get('/', function (req, res) {
 
 
 
-});
+              });
+
 
 
 app.listen(8080, function () {
